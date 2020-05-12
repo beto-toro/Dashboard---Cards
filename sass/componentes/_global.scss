@@ -1,0 +1,30 @@
+//---colores
+$color-claro: hsl(0, 0%, 98%);
+$color-medio: hsl(229, 6%, 66%);
+$color-oscuro: hsl(234, 12%, 34%);
+
+//---lines colors
+$linea-roja: hsl(0, 78%, 62%);
+$linea-cyan: hsl(180, 62%, 55%);
+$linea-yellow: hsl(34, 97%, 64%);
+$linea-blue: hsl(212, 86%, 64%);
+
+
+//---fonts
+$font: 'Poppins', sans-serif;
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font;
+}
+
+body
+{
+  width: 100vw;
+  height: 100vh;
+  background-color: $color-claro;
+  font-size: 15px;
+}

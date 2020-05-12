@@ -1,0 +1,26 @@
+.title
+{
+  // border: 1px solid red;
+  width: 100vw;
+  max-height: 20vh;
+  padding-top: 4em;
+  text-align: center;
+}
+
+.title1
+{
+  color: $color-medio;
+  font-weight: 400;
+}
+.title2
+{
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.description
+{
+  margin-top: 0.8em;
+  font-size: 0.8em;
+  color: $color-medio;
+}

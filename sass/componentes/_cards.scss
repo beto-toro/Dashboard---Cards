@@ -1,0 +1,66 @@
+.cards
+{
+  border: 1px solid red;
+  width: 100vw;
+  height: 80vh;
+}
+
+.cards__wraper
+{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  // grid-template-rows: repeat(, 1fr);
+}
+
+.card
+{
+  height: 280px;
+  width: 400px;
+  padding: 2em 2em 0 2em;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 1em;
+  h2
+  {
+    margin-bottom: .5em;
+  }
+  p
+  {
+    font-weight: 200;
+  }
+  &--image
+  {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 9em;
+  }
+}
+
+.card-supervisor
+{
+  border-top: 3px solid $linea-cyan;
+}
+.card-team
+{
+  margin: 3em auto;
+  border-top: 3px solid $linea-roja;
+}
+.card-karma
+{
+  border-top: 3px solid $linea-yellow;
+}
+.card-calculator
+{
+  border-top: 3px solid $linea-blue;
+}
+
+.cards_grid1
+{
+  display: flex;
+  align-items: center;
+}
+.cards__grid3
+{
+  @extend .cards_grid1;
+}
