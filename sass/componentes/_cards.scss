@@ -1,6 +1,6 @@
 .cards
 {
-  border: 1px solid red;
+  // border: 1px solid red;
   width: 100vw;
   height: 80vh;
 }
@@ -14,12 +14,13 @@
 
 .card
 {
-  height: 280px;
-  width: 400px;
+  height: 260px;
+  width: 370px;
   padding: 2em 2em 0 2em;
   margin: 0 auto;
   background-color: white;
   border-radius: 1em;
+  box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.33);
   h2
   {
     margin-bottom: .5em;
@@ -33,12 +34,13 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    height: 9em;
+    height: 8em;
   }
 }
 
 .card-supervisor
 {
+  margin-right: 0;
   border-top: 3px solid $linea-cyan;
 }
 .card-team
@@ -52,6 +54,7 @@
 }
 .card-calculator
 {
+  margin-left: 0;
   border-top: 3px solid $linea-blue;
 }
 
