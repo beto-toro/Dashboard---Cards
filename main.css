@@ -21,9 +21,11 @@ body {
 .cards__wraper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
 }
 
 .card {
+  position: relative;
   height: 260px;
   max-width: 370px;
   padding: 2em 2em 0 2em;
@@ -40,10 +42,13 @@ body {
   color: #a3a5ae;
 }
 .card--image {
+  position: absolute;
+  right: 0;
+  bottom: 0;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  height: 8em;
+  margin: 20px;
 }
 
 .card-supervisor {

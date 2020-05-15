@@ -10,11 +10,13 @@
 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
   // grid-template-rows: repeat(, 1fr);
 }
 
 .card
 {
+  position: relative;
   height: 260px;
   max-width: 370px;
   padding: 2em 2em 0 2em;
@@ -33,10 +35,14 @@
   }
   &--image
   {
+    position: absolute;
+    right: 0;
+    bottom: 0;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    height: 8em;
+    margin: 20px;
+    // height: 8em;
   }
 }
 
